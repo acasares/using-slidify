@@ -1,0 +1,33 @@
+---
+title       : On slidify
+subtitle    : First steps of knowing it
+author      : A. Casares M.
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+url:
+  lib: ../../libraries
+  assets: ../../assets
+widgets     : [mathjax]            # {mathjax, quiz, bootstrap}
+mode        : selfcontained         # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Read-And-Delete
+
+1. Edit YAML front matter
+2. Write using R Markdown
+3. Use an empty line followed by three dashes to separate slides!
+
+--- .class #id 
+
+## Slide 2
+- Here I don't know what to put, except Euler's identity:
+
+$e^{\pi i} + 1 = 0$
+
+Read Euler! He is the master of us all.
+
+
+
